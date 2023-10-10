@@ -1,0 +1,336 @@
+body footer{font-size: 11px; }
+body footer a{
+     color: hsl(228, 45%, 44%)}
+
+    
+
+@media screen and (max-width:768px){
+    
+body{
+    background-color: hsl(185, 75%, 39%) ;
+    background-repeat: no-repeat no-repeat;
+    background-image:url(images/bg-pattern-top.svg) , url(/images/bg-pattern-bottom.svg)  ;
+    background-repeat: no-repeat , no-repeat;
+   background-size: cover, cover;
+    background-position: left -400px top -420px, right -400px bottom -385px;
+    font-family: Kumbh Sans , sans-serif; ;
+    text-align: center;
+   
+}
+
+
+
+.profile{
+    width: 90%;
+    max-width: 320px;
+    margin: 150px auto;;
+    border-radius: 16px;
+    background-color: white;
+
+} 
+
+.profileBackground{
+    background-image: url(/images/bg-pattern-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:129px;
+    border-top-left-radius: 16px;
+    border-top-right-radius:16px;
+  
+
+
+}
+
+.profilePic{
+    background-image: url(images/image-victor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    width:100px ;
+    border-radius:180px;
+    border: 5px solid white;
+    bottom:50px;
+    left: 110px;
+    margin: -55px auto;
+    
+}
+
+.profileInfor{
+    margin-top: 55px;
+ 
+}
+
+ .profileInfor p:nth-child(1), .profileInfor p:nth-child(2){
+ display: inline-block;
+ margin-bottom: 8px;
+
+}
+
+.profileInfor p:nth-child(1), .profileStats p:first-child{
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(229, 23%, 23%);
+}
+
+.profileInfor p:nth-child(2){
+    color:hsl(227, 10%, 46%);
+    font-size: medium;
+    padding-left: 5px;
+}
+
+.profileInfor p:nth-child(3){
+    margin-top: 0px;
+    color:hsl(227, 10%, 46%);
+    font-size:small ;
+    padding-bottom: 10px;
+}
+
+.profileStats{
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid hsl(227, 16%, 83%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+
+
+}
+
+.profileStats p:first-child{
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.profileStats p:last-child{
+    font-weight: 400;
+    font-size: x-small;
+    color:hsl(227, 10%, 46%);
+    margin-top: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    
+    body{
+        background-color: hsl(185, 75%, 39%) ;
+        background-image:url(images/bg-pattern-top.svg) , url(/images/bg-pattern-bottom.svg)  ;
+        background-repeat: no-repeat , no-repeat;
+       background-size: cover, cover;
+        background-position: left -400px top -700px, right -400px bottom -700px;
+        font-family: Kumbh Sans , sans-serif; 
+        text-align: center;
+       
+    }
+    
+    
+    
+    .profile{
+        width: 90%;
+        max-width: 320px;
+        margin: 150px auto;;
+        border-radius: 16px;
+        background-color: white;
+    
+    } 
+    
+    .profileBackground{
+        background-image: url(/images/bg-pattern-card.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:129px;
+        border-top-left-radius: 16px;
+        border-top-right-radius:16px;
+      
+    
+    
+    }
+    
+    .profilePic{
+        background-image: url(images/image-victor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100px;
+        width:100px ;
+        border-radius:180px;
+        border: 5px solid white;
+        bottom:50px;
+        left: 110px;
+        margin: -55px auto;
+        
+    }
+    
+    .profileInfor{
+        margin-top: 55px;
+     
+    }
+    
+     .profileInfor p:nth-child(1), .profileInfor p:nth-child(2){
+     display: inline-block;
+     margin-bottom: 8px;
+    
+    }
+    
+    .profileInfor p:nth-child(1), .profileStats p:first-child{
+        font-weight: 700;
+        font-size: medium;
+        color: hsl(229, 23%, 23%);
+    }
+    
+    .profileInfor p:nth-child(2){
+        color:hsl(227, 10%, 46%);
+        font-size: medium;
+        padding-left: 5px;
+    }
+    
+    .profileInfor p:nth-child(3){
+        margin-top: 0px;
+        color:hsl(227, 10%, 46%);
+        font-size:small ;
+        padding-bottom: 10px;
+    }
+    
+    .profileStats{
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid hsl(227, 16%, 83%);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius:8px;
+    
+    
+    }
+    
+    .profileStats p:first-child{
+        margin-bottom: 2px;
+        font-weight: 700;
+        font-size: medium;
+    }
+    
+    .profileStats p:last-child{
+        font-weight: 400;
+        font-size: x-small;
+        color:hsl(227, 10%, 46%);
+        margin-top: 2px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    }
+
+
+
+@media screen and (min-width:1025px){
+    body{
+        background-color: hsl(185, 75%, 39%) ;
+        background-image:url(images/bg-pattern-top.svg) , url(/images/bg-pattern-bottom.svg)  ;
+        background-repeat: no-repeat , no-repeat;
+       background-size: contain, contain;
+        /* background-position: left -650px top -900px, right -350px bottom -1100px; */
+
+        background-position: left 50px top -300px, right 70px bottom -400px;
+        font-family: Kumbh Sans , sans-serif; 
+        text-align: center;
+       
+    }
+    
+   
+    
+    .profile{
+        width: 90%;
+        max-width: 320px;
+        margin: 150px auto;;
+        border-radius: 16px;
+        background-color: white;
+    
+    } 
+    
+    .profileBackground{
+        background-image: url(/images/bg-pattern-card.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:129px;
+        border-top-left-radius: 16px;
+        border-top-right-radius:16px;
+      
+    
+    
+    }
+    
+    .profilePic{
+        background-image: url(images/image-victor.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100px;
+        width:100px ;
+        border-radius:180px;
+        border: 5px solid white;
+        bottom:50px;
+        left: 110px;
+        margin: -55px auto;
+        
+    }
+    
+    .profileInfor{
+        margin-top: 55px;
+     
+    }
+    
+     .profileInfor p:nth-child(1), .profileInfor p:nth-child(2){
+     display: inline-block;
+     margin-bottom: 8px;
+    
+    }
+    
+    .profileInfor p:nth-child(1), .profileStats p:first-child{
+        font-weight: 700;
+        font-size: medium;
+        color: hsl(229, 23%, 23%);
+    }
+    
+    .profileInfor p:nth-child(2){
+        color:hsl(227, 10%, 46%);
+        font-size: medium;
+        padding-left: 5px;
+    }
+    
+    .profileInfor p:nth-child(3){
+        margin-top: 0px;
+        color:hsl(227, 10%, 46%);
+        font-size:small ;
+        padding-bottom: 10px;
+    }
+    
+    .profileStats{
+        bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid hsl(227, 16%, 83%);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius:8px;
+    
+    
+    }
+    
+    .profileStats p:first-child{
+        margin-bottom: 2px;
+        font-weight: 700;
+        font-size: medium;
+    }
+    
+    .profileStats p:last-child{
+        font-weight: 400;
+        font-size: x-small;
+        color:hsl(227, 10%, 46%);
+        margin-top: 2px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+    }
+
+
+
